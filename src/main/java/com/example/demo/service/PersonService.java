@@ -27,7 +27,7 @@ public class PersonService {
         Person person = new Person();
         person.setId(id);
         person.setFirstName(data.getFirstName());
-        person.setLastName(data.getFirstName());
+        person.setLastName(data.getLastName());
 
         persons.put(id, person);
 
